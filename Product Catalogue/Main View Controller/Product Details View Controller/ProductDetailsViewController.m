@@ -1,0 +1,32 @@
+//
+//  ProductDetailsViewController.m
+//  Product Catalogue
+//
+//  Created by Inspire One on 09/02/19.
+//  Copyright © 2019 Inspire One. All rights reserved.
+//
+
+#import "ProductDetailsViewController.h"
+
+@interface ProductDetailsViewController ()
+
+@end
+
+@implementation ProductDetailsViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
