@@ -10,4 +10,16 @@
 
 @implementation ProductModel
 
+@synthesize product_name;
+@synthesize product_manufacturer;
+@synthesize product_price;
+@synthesize product_promo_image_url;
+@synthesize product_detail_url;
+
++ (ProductModel *)createEmptyObject{
+    ProductModel *model = [[ProductModel alloc] init];
+    return model;
+}
+
+
 @end

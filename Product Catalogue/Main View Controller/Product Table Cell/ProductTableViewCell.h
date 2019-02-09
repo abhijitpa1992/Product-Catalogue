@@ -11,6 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ProductTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *product_preview_image;
+@property (weak, nonatomic) IBOutlet UILabel *name_label;
+@property (weak, nonatomic) IBOutlet UILabel *manufacturer_label;
+@property (weak, nonatomic) IBOutlet UILabel *price_label;
 
 @end
 

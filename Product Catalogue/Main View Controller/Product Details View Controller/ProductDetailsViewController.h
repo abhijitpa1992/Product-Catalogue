@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
+#import "ProductModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ProductDetailsViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *product_name_label;
+@property (weak, nonatomic) IBOutlet UILabel *product_manufacturer_name;
+@property (weak, nonatomic) IBOutlet UILabel *product_price_name;
+@property (weak, nonatomic) IBOutlet WKWebView *product_details;
+
+@property (strong, nonatomic) ProductModel *product;
 
 @end
 
